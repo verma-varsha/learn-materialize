@@ -1,109 +1,287 @@
-<html>
-<head>
-<title>Materialize CSS Framework Demo</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Compiled and minified CSS -->
+  		<link rel="stylesheet" href="assets/css/materialize.min.css">
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  		<link rel="stylesheet" href="assets/css/styles.css">
+		<title>Varsha's Portfolio</title>
+	</head>
+	<body>
 
-<link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+		<!-- NAVIGATION SECTION -->
+		<nav>
+			<div class="nav-wrapper blue-grey darken-2">
+				<a href="#!" class="brand-logo"><span class="logo grey-text text-lighten-2">Varsha Verma - Freelance Design</span></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Services</a></li>	
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+		</nav>        
+		
+        <!-- HERO SECTION -->
+        <div class="parallax-container valign-wrapper">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col l8 s12 white-text">
+        				<h4 class="thin-text left-align valign">I'm Varsha Verma, a freelance web designer &amp; frontend developer based in Varanasi, India</h4>
+        			</div>
+        		</div>
+        		<div class="row">
+        			<div class="col l4">
+        				<a class="waves-effect btn-large hoverable red accent-2">Get A Free Quote</a>
+        			</div>
+        		</div>
+        	</div>
+      		<div class="parallax"><img src="assets/img/laptop_cup_glasses.jpg"></div>
+    	</div>
 
-<nav>
-<div class="nav-wrapper z-depth-1">
-<div class="container">
-<div class="col s12 m12 l12">
-<a href="#!" class="brand-logo">Site Title</a>
-<ul class="side-nav">
-<li>
-<a href="#"><i class="mdi-action-perm-contact-cal left"></i>Contact</a>
-</li>
-<li>.....</li>
-</ul>
-</div></div></div>
-</nav>
+    	<!-- SERVICES -->
+    	<div class="container">
+    		<div class="row">
+    			<h2 class="section-header">Services</h2>
+    		</div>
+    		<div class="row">
+    			<div class="col l6 m12 s12">
+	    			<div class="card medium light-blue accent-4 z-depth-2">
+	    				<div class="card-content white-text">
+	    					<h3 class="center-align"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></h3>
+	    					<div class="divider"></div>
+	    					<span class="card-title">Custom Web Design</span>
+	    					<p>I design attractive, functional websites. I provide a total solution, from design to deployment and I'm not finished until you're happy with the product.
+	    					</p>
+	    				</div>
+	    				<div class="card-action">
+	    					<a href="#">Find Out More</a>
+	    				</div>
+	    			</div>
+    			</div>
+    			<div class="col l6 m12 s12">
+	    			<div class="card medium blue darken-4 z-depth-2">
+	    				<div class="card-content white-text">
+	    					<h3 class="center-align"><i class="fa fa-line-chart fa-3x" aria-hidden="true"></i></h3>
+	    					<div class="divider"></div>
+	    					<span class="card-title">Search Engine Optimization</span>
+	    					<p>What good is a stunning functional website if nobody finds it. I can help you rise above the noise and rise about the competition in the rankings.
+	    					</p>
+	    				</div>
+	    				<div class="card-action">
+	    					<a href="#">Find Out More</a>
+	    				</div>
+	    			</div>
+    			</div>
+    			<div class="col l6 m12 s12">
+	    			<div class="card medium blue darken-4 z-depth-2">
+	    				<div class="card-content white-text">
+	    					<h3 class="center-align"><i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></h3>
+	    					<div class="divider"></div>
+	    					<span class="card-title">Content Creation</span>
+	    					<p>I design attractive, functional websites. I provide a total solution, from design to deployment and I'm not finished until you're happy with the product.
+	    					</p>
+	    				</div>
+	    				<div class="card-action">
+	    					<a href="#">Find Out More</a>
+	    				</div>
+	    			</div>
+    			</div>
+    			<div class="col l6 m12 s12">
+	    			<div class="card medium light-blue accent-4 z-depth-2">
+	    				<div class="card-content white-text">
+	    					<h3 class="center-align"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></h3>
+	    					<div class="divider"></div>
+	    					<span class="card-title">Email Marketing</span>
+	    					<p>I design attractive, functional websites. I provide a total solution, from design to deployment and I'm not finished until you're happy with the product.
+	    					</p>
+	    				</div>
+	    				<div class="card-action">
+	    					<a href="#">Find Out More</a>
+	    				</div>
+	    			</div>
+    			</div>
+    		</div>
+    	</div>
 
-<div class="container">
-<div class="row">
-<div class="col s12 m8 l8">
-<!-- Posts list is displayed here -->
-<div class="post-index z-depth-1">
-<h5>Learn CSS3 at Sitepoint</h5>
-<h6>08/01/2015</h6>
-<img class="responsive-img materialboxed" data-caption="CSS3 Image" src="images/css3.png" />
-<p>Excerpt.</p>
-</div>
+    	<!-- CTA -->
+    	<div class="parallax-container valign-wrapper">
+    		<div class="container">
+    			<div class="row center">
+    				<div class="col l10 offset-l1 valign">
+    					<h2 class="center-align white-text cta">Interested in working together?</h2>
+    					<a href="#" class="center btn-large hoverable red accent-2">GET IN TOUCH</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="parallax"><img src="assets/img/beautiful-nature.jpg"></div>
+    	</div>
 
-</div>
-<div class="col s12 m4 l4">
-<!-- widgets are displayed here -->
-<div class="widget-item z-depth-1">
-<b>Sign In</b>
+    	<!-- WORK SECTION -->
+    	<div class="container">
+    		<h2 class="section-header">Selected Works</h2>
+    		<div class="row">
+    			<div class="col l4 m8 offset-m2 s12">
+				    				
+				  <div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="assets/img/shinchan.jpg">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">varshaverma.com<i class="material-icons right">more_vert</i></span>
+				      <p><a href="#">View the Live Site</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">varshaverma.com<i class="material-icons right">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on. This is a previous version of me and I aspire to be the same the rest of my upcoming life. Love Shinchan!</p>
+				    </div>
+				  </div>
+				        
 
-<div>
-<div class="row">
-<form class="col s12">
-<div class="row">
+    			</div>
+    			<div class="col l4 m8 offset-m2 s12">
+				    				
+				  <div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="assets/img/shinchan.jpg">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">varshaverma.com<i class="material-icons right">more_vert</i></span>
+				      <p><a href="#">View the Live Site</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">varshaverma.com<i class="material-icons right">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on. This is a previous version of me and I aspire to be the same the rest of my upcoming life. Love Shinchan!</p>
+				    </div>
+				  </div>
+				        
+				          
+    			</div>
+    			<div class="col l4 m8 offset-m2 s12">
+				    				
+				  <div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="assets/img/shinchan.jpg">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">varshaverma.com<i class="material-icons right">more_vert</i></span>
+				      <p><a href="#">View the Live Site</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">varshaverma.com<i class="material-icons right">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on. This is a previous version of me and I aspire to be the same the rest of my upcoming life. Love Shinchan!</p>
+				    </div>
+				  </div>
+				        
+				          
+    			</div>
+    		</div>
+    	</div>
 
-<div class="input-field col s12">
-<i class="mdi-action-account-circle prefix"></i>
-<input id="username" type="text" class="validate">
-<label for="username">Username</label>
-</div>
+    	<div class="container">
+    		<div class="divider"></div>
+    	</div>
 
-<div class="input-field col s12">
-<i class="mdi-action-https prefix"></i>
-<input id="password" type="password" class="validate">
-<label for="password">Password</label></div>
+    	<!--ABOUT SECTION-->
+    	<div class="container">
+    		<div class="row">
+    			<h2 class="section-header">About</h2>
+    		</div>
+    		<div class="row">
+    			<p class="flow-text">My name is Varsha Verma. I am currently a student of Electrical Engineering at IIT-BHU, Varanasi. This is a portfolio that I am creating as a part of my learning expedition for google materialize.</p>
+    		</div>
+    	</div>
 
-<button class="btn waves-effect waves-light" type="submit">
-Login<i class="mdi-action-lock-open right"></i></button>
+    	<!--CONTACT SECTION-->
+    	  <div class="container">
+    	  	<div class="row">
+    	  		<h2 class="section-header">Contact</h2>
+    	  	</div>
+    	  </div>
 
-</div>
-</form>
+		  <div class="container blue darken-4 contact-form">
+		  	<div class="row">
+		  		<div class="col l8 offset-l2 m12 s12">
+		  			<div class="row">
+					    <form class="col s12">
+					      <div class="row">
+					        <div class="input-field col s6">
+					          <input placeholder="First Name" id="first_name" type="text" class="validate">
+					          <label for="first_name">First Name</label>
+					        </div>
+					        <div class="input-field col s6">
+					          <input placeholder="Last Name" id="last_name" type="text" class="validate">
+					          <label for="last_name">Last Name</label>
+					        </div>
+					      </div>
+					      <div class="row">
+					        <div class="input-field col s12">
+					          <input placeholder="Email" id="email" type="email" class="validate">
+					          <label for="email">Email</label>
+					        </div>
+					      </div>
+					      <div class="row">
+					        <div class="input-field col s12">
+					          <input class="validate">
+					          <label >Tell me about your project</label>
+					        </div>
+					      </div>
+					      
+					    </form>
+				  </div>
+		  		</div>
+		  	</div>
+		  </div>
+        
 
-</div>
-</div>
-</div>
-
-<div class="widget-item z-depth-1">
-<b>Categories</b>
-<div>
-<ul class="collection">
-
-<a href="#!" class="collection-item">
-HTML<span class="badge">1</span>
-</a>
-
-<a href="#!" class="collection-item">
-....
-</a>
-
-</ul>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-<footer>
-<div class="footer-copyright">
-<div class="container">
-© 2014 Copyright Text
-<a class="grey-text text-lighten-4 right" href="#!">About Me</a>
-</div>
-</div>
-</footer>
-
-<!-- jQuery is required by Materialize to function. -->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.min.js"></script>
-<script type="text/javascript">
-//custom JS code
-$(document).ready(function(){
-$('.materialboxed').materialbox();
-});
-toast('New Post', 4000);
-</script>
-</body>
+    	<!--FOOTER SECTION-->
+    	<footer class="page-footer blue-grey darken-3">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col l6 s12">
+    					<h5 class="white-text">Varanasi Web Developer</h5>
+    					<ul>
+    						<li class="grey-text text-lighten-4">PSD To HTML</li>
+    						<li class="grey-text text-lighten-4">Updates and Upgrades</li>
+    						<li class="grey-text text-lighten-4">UI/UX Design</li>
+    						<li class="grey-text text-lighten-4">Site Maintenance</li>
+    						<li class="grey-text text-lighten-4">Hosting</li>
+    					</ul>
+    				</div>
+    				<div class="col l4 offset-l2 s12">
+    					<h5 class="white-text">Links</h5>
+    					<ul>
+    						<li><a href="#" class="grey-text text-lighten-3">Services</a></li>
+    						<li><a href="#" class="grey-text text-lighten-3">About</a></li>
+    						<li><a href="#" class="grey-text text-lighten-3">Work</a></li>
+    						<li><a href="#" class="grey-text text-lighten-3">Contact</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="footer-copyright blue-grey darken-4">
+    			<div class="container">
+    				<p>&copy; 2017 Copyright Varsha Verma, All Rights Reserved</p>
+    				<a href="#" class="grey-text text-lighten-4 right">Privacy Policy</a>
+    			</div>
+    		</div>
+    	</footer>
+		<!-- Compiled and minified JavaScript -->
+  		<script src="assets/js/jquery-3.2.1.min.js"></script>
+  		<script src="assets/js/materialize.min.js"></script>
+  		<script src="assets/js/scripts.js"></script>
+	</body>
 </html>

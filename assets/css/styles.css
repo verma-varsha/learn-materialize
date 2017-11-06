@@ -1,0 +1,32 @@
+body{
+	min-height: 200vh;
+}
+
+.logo{
+	font-weight: 100;
+	padding-left: 10px;	
+}
+
+.parallax-container {
+	height: 500px;
+}
+
+.thin-text{
+	font-weight: 100;
+	background: rgba(96, 125, 139, .4);
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.section-header{
+	font-weight: 100;
+}
+
+.cta{
+	font-weight: 100;
+	text-shadow: 1px 1px black;
+}
+
+.contact-form{
+	padding-top: 40px;
+}
